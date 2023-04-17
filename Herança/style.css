@@ -1,0 +1,23 @@
+/* todos os elementos dentro do body vai herdar a cor */
+body {
+  color: cornflowerblue;
+}
+
+/* todos os elementos dentro do ul vai herdar a cor */
+ul {
+  color: violet;
+}
+
+/* tags e class */
+main section ul li.marte {
+  color: yellowgreen;
+}
+
+/* usando a propriedade inherit */
+div {
+  border: 2px solid red;
+}
+
+div ul {
+  border: inherit;
+}
