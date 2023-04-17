@@ -1,0 +1,43 @@
+/* estrela - seleciona todos os elementos do documento */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* descendência - pega todos os a dentro do li - não precisa ser filho direto */
+li a {
+  color: violet;
+  text-decoration: none;
+}
+
+/* descendência - pega filho direto do li */
+li > a {
+  color: aqua;
+}
+
+/* adjacente - pega o h2 que está imediatamente na sequência do h1 */
+h1 + h2 {
+  color: crimson;
+}
+
+/* atributo - pega o atributo da tag */
+a[href='teste'] {
+  color: yellowgreen;
+}
+
+img[src='foto01.jpg'] {
+  border-radius: 10px;
+}
+
+/* pseudo class */
+/* pega o segundo elemento de todas as listas */
+li:nth-of-type(2) {
+  background-color: yellow;
+}
+
+/* pega todo número ímpar da lista */
+li:nth-of-type(odd) {
+  background-color: aquamarine;
+}
