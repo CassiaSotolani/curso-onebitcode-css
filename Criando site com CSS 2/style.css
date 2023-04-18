@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fffafa;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .post {
+  margin: 0 35px;
+}
+
+.container .post .date {
+  color: #008080;
+  text-transform: uppercase;
+  padding: 25px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container .post .title-post {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container .post .content {
+  font-family: 'Open Sans', sans-serif;
+  padding: 25px 0;
+}
