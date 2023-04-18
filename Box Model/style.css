@@ -1,0 +1,10 @@
+body {
+  border: 2px solid springgreen;
+}
+
+h1 {
+  border: 2px solid tomato;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
